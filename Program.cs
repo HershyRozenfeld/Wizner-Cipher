@@ -189,7 +189,7 @@ namespace Wizner_cipher
             Console.WriteLine("Please enter the encrypted message:" + "\n");
             EncryptedMess = Console.ReadLine();
             Console.WriteLine();
-            Console.WriteLine("Please enter his key" + "\n");
+            Console.WriteLine("Please enter his key:" + "\n");
             Key = Console.ReadLine();
             Console.WriteLine();
             char[] Mess = EncryptedMess.ToCharArray();
